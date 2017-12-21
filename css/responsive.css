@@ -1,0 +1,94 @@
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+.project-info {
+  padding: 100px 30px 100px 230px;
+  transition: all 0.3s ease 0s;
+}
+
+}
+    
+
+/* tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+.project-info {
+  font-size: 14px;
+  padding: 80px 20px 80px 155px;
+  transition: all 0.3s ease 0s;
+}
+.project-info h3 {
+  font-size: 20px;
+}
+.project-info a.featured-btn {
+	font-size: 16px;
+}
+
+
+
+}
+
+    
+    
+/* Small Mobile :320px. */
+
+@media (max-width: 767px) {
+.section-title h2 {
+  font-size: 22px;
+}
+.featured-project-wrap h2 {
+  font-size: 20px;
+  margin: 20px 0;
+  position: relative;
+  right: auto;
+  top: auto;
+}
+.single-featured-bg {
+  border: 0 none;
+  height: 50%;
+  margin-left: 0;
+  width: 100%;
+}
+.project-info {
+  font-size: 14px;
+  padding: 200px 20px 30px;
+  width: 100%;
+  transition: all 0.3s ease 0s;
+}
+.featured-list .owl-dots {
+  border-bottom: 2px solid #dbe8e5;
+  bottom: auto;
+  left: auto;
+  padding-bottom: 0;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+.featured-list .owl-dots div {
+  margin: 10px;
+}
+.featured-project-wrap .nav.nav-tabs {
+  bottom: -67px;
+  left: auto;
+  padding-bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+.featured-project-wrap .nav-tabs > li {
+  display: inline-block;
+  float: none;
+  margin-bottom: 0;
+}
+
+
+}
+
+
+    
+    
+    
+/* Large Mobile :480px. */
+@media (min-width: 480px) and (max-width: 767px) {
+
+
+}

@@ -1,0 +1,198 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Your template name 
+    Template URI: http://bootexperts.com
+    Description: This is html5 template
+    Author: BootExperts
+    Author URI: http://bootexperts.com
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+    
+    1. Theme Default CSS (body, link color, section etc)
+
+-----------------------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+/*----------------------------------------*/
+/*  1.  Theme default CSS
+/*----------------------------------------*/
+html, body {height: 100%;}
+.floatleft {float:left}
+.floatright {float:right}
+.alignleft {float:left;margin-right:15px;margin-bottom: 15px}
+.alignright {float:right;margin-left:15px;margin-bottom: 15px}
+.aligncenter {display:block;margin:0 auto 15px}
+a:focus {outline:0px solid}
+img {max-width:100%;height:auto}
+.fix {overflow:hidden}
+p {margin:0 0 15px;}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 10px;
+}
+a {-webkit-transition: all 0.3s ease 0s;transition: all 0.3s ease 0s;text-decoration:none;}
+a:hover {
+  color: #ec4445;
+  text-decoration: none;
+}
+a:active, a:hover {
+  outline: 0 none;
+}
+ul{
+list-style: outside none none;
+margin: 0;
+padding: 0
+}
+.clear{clear:both}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+.single-featured-bg {background: url(img/bg.jpg)}
+.featured-bg-2 {background: url(img/bg-2.jpg)}
+.featured-bg-3 {background: url(img/bg-3.jpg)}
+
+.section-padding {
+  padding: 80px 0;
+}
+.section-title h2 {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.featured-project-wrap {
+  position: relative;
+}
+.featured-project-wrap h2 {
+  font-weight: 300;
+  position: absolute;
+  right: 0;
+  top: 50px;
+  width: 36%;
+}
+.featured-project-wrap h2 span {
+  font-size: 50px;
+}
+.single-featured-item {
+  position: relative;
+  text-align: right;
+}
+.single-featured-bg {
+  background-color: #ddd;
+  background-position: center center;
+  background-size: cover;
+  border: 15px solid #fff;
+  height: 81%;
+  left: 0;
+  margin-left: -15px;
+  position: absolute;
+  top: 0;
+  width: 60%;
+}
+.project-info {
+  background: #f96331 none repeat scroll 0 0;
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1.9;
+  margin-top: 200px;
+  padding: 100px 50px 100px 290px;
+  text-align: left;
+  width: 60%;
+}
+.project-info h3 {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+.project-info a.featured-btn {
+  color: #fff;
+  display: inline-block;
+  margin-top: 50px;
+}
+.owl-carousel .single-featured-item {
+    overflow: hidden;
+}
+.featured-list .owl-dots div:nth-child(1):after {
+    content: "01";
+}
+.featured-list .owl-dots div:nth-child(2):after {
+    content: "02";
+}
+.featured-list .owl-dots div:nth-child(3):after {
+    content: "03";
+}
+.featured-list .owl-dots {
+  border-bottom: 2px solid #dbe8e5;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 40px;
+  position: absolute;
+  width: 40%;
+}
+.featured-list .owl-dots div {
+  display: inline-block;
+  font-size: 40px;
+  margin-right: 20px;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  -webkit-transition: .3s;
+  transition:.3s;
+}
+.featured-list .owl-dots div.active {
+    opacity: .8;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+}
+.featured-project-wrap .nav.nav-tabs {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: currentcolor;
+  -o-border-image: none;
+     border-image: none;
+  border-style: none none solid;
+  border-width: medium medium 2px;
+  bottom: 0;
+  color: #f96331;
+  left: 0;
+  padding-bottom: 40px;
+  position: absolute;
+  width: 40%;
+  z-index: 1;
+}
+.nav > li > a {
+  color: #000;
+  font-size: 40px;
+  opacity: 0.6;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+  padding: 0 20px 0 0;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+  -o-border-image: none;
+     border-image: none;
+  border-style: none;
+  color: #FC6324;
+  opacity: 0.7;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+  background-color: none;
+}
+.nav > li > a:focus, .nav > li > a:hover {
+    background: none;
+    border: medium none;
+}
